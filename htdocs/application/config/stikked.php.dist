@@ -230,6 +230,7 @@ $config['soft_api'] = false;
  * disable_shorturl: "Create Shorturl" option will be disabled
  * disallow_search_engines: displays a robots.txt that forbids indexing
  * enable_adminlink: Enables a link directly to the spam admin interface
+ * disable_replies: Disables all replies for pastes
  *
  **/
 $config['private_only'] = false;
@@ -242,6 +243,7 @@ $config['blocked_words'] = '';
 $config['disable_shorturl'] = false;
 $config['disallow_search_engines'] = false;
 $config['enable_adminlink'] = false;
+$config['disable_replies'] = false;
 
 //spamadmin: accessible via /spamadmin (only active when user + pass is set)
 $config['spamadmin_user'] = '';
