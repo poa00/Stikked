@@ -62,6 +62,7 @@ $lang['menu_trending'] = '人気';
 $lang['menu_trending_title'] = '人気のコピペ';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = '紹介';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = '題名';
 $lang['table_name'] = '作者';
 $lang['table_lang'] = '言語';

@@ -52,6 +52,9 @@ $this->carabiner->display('css');
 						<div class="nav-collapse">
 							<ul style="margin-top: 5px;" class="nav">
 								<?php $l = $this->uri->segment(1)?>
+<?php if($this->config->item('enable_adminlink')){ ?>
+								<li><a href="<?php echo base_url() . 'spamadmin'; ?>" title="<?php echo lang('menu_admin'); ?>"><?php echo lang('menu_admin'); ?></a></li>
+<?php } ?>
 								<li><a <?php if($l == ""){ echo 'class="active"'; }?> href="<?php echo base_url()?>" title="<?php echo lang('menu_create_title'); ?>"><?php echo lang('menu_create'); ?></a></li>
 <?php if(!$this->config->item('private_only')){ ?>
 								<li><img class="pull-left" style="margin-top: 10px" src="<?php echo base_url(); ?>themes/geocities/images/new.gif"><a style="float: left; padding: 10px 15px 10px 5px;" <?php if($l == "lists" || $l == "view" and $this->uri->segment(2) != "options"){ echo 'class="active"'; }?> href="<?php echo site_url('lists'); ?>" title="<?php echo lang('menu_recent_title'); ?>"><?php echo lang('menu_recent'); ?></a></li>

@@ -64,6 +64,7 @@ $lang['menu_trending'] = 'Tendências';
 $lang['menu_trending_title'] = 'Códigos Populares';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Sobre';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Título';
 $lang['table_name'] = 'Nome';
 $lang['table_lang'] = 'Linguagem';

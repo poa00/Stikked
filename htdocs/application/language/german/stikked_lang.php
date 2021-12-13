@@ -63,6 +63,7 @@ $lang['menu_trending'] = 'Beliebt';
 $lang['menu_trending_title'] = 'Pastes mit hoher Besucherzahl';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Über';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Titel';
 $lang['table_name'] = 'Name';
 $lang['table_lang'] = 'Sprache';

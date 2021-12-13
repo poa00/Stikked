@@ -64,6 +64,7 @@ $lang['menu_trending'] = 'Trending';
 $lang['menu_trending_title'] = 'Sisipan Trending';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Tentang';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Judul';
 $lang['table_name'] = 'Nama';
 $lang['table_lang'] = 'Bahasa';

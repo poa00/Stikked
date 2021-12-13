@@ -64,6 +64,7 @@ $lang['menu_trending'] = 'Επίκαιρα';
 $lang['menu_trending_title'] = 'Επίκαιρες Επικολλήσεις';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Περί';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Τίτλος';
 $lang['table_name'] = 'Όνομα';
 $lang['table_lang'] = 'γλώσσα';

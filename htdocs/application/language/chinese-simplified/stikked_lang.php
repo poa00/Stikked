@@ -66,6 +66,7 @@ $lang['menu_trending'] = '趋势';
 $lang['menu_trending_title'] = '便签趋势';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = '关于';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = '标题';
 $lang['table_name'] = '提交人';
 $lang['table_lang'] = '语言';

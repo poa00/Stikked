@@ -64,6 +64,7 @@ $lang['menu_trending'] = '趨勢';
 $lang['menu_trending_title'] = '貼文趨勢';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = '關於';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = '標題';
 $lang['table_name'] = '作者';
 $lang['table_lang'] = '語言';

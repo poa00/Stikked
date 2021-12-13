@@ -63,6 +63,7 @@ $lang['menu_trending'] = 'Trending';
 $lang['menu_trending_title'] = 'Trending pastes';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Om';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Titel';
 $lang['table_name'] = 'Navn';
 $lang['table_lang'] = 'Sprog';

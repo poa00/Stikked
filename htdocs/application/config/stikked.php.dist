@@ -229,6 +229,7 @@ $config['soft_api'] = false;
  * blocked_words: Comma separated list, e.g. '.es.tl, mycraft.com, yourbadword'
  * disable_shorturl: "Create Shorturl" option will be disabled
  * disallow_search_engines: displays a robots.txt that forbids indexing
+ * enable_adminlink: Enables a link directly to the spam admin interface
  *
  **/
 $config['private_only'] = false;
@@ -240,6 +241,7 @@ $config['disable_keep_forever'] = false;
 $config['blocked_words'] = '';
 $config['disable_shorturl'] = false;
 $config['disallow_search_engines'] = false;
+$config['enable_adminlink'] = false;
 
 //spamadmin: accessible via /spamadmin (only active when user + pass is set)
 $config['spamadmin_user'] = '';

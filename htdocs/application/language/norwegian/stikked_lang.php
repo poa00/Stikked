@@ -62,6 +62,7 @@ $lang['menu_trending'] 		= 'Populære';
 $lang['menu_trending_title'] 	= 'Populære poster';
 $lang['menu_api'] 		= 'API';
 $lang['menu_about'] 		= 'Om';
+$lang['menu_admin']             = 'Admin';
 $lang['table_title'] 		= 'Tittel';
 $lang['table_name'] 		= 'Navn';
 $lang['table_lang']		= 'Språk';

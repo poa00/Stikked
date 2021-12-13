@@ -62,6 +62,7 @@ $lang['menu_trending']		= 'Popularne';
 $lang['menu_trending_title']	= 'Wklejki często odwiedzane';
 $lang['menu_api']		= "API";
 $lang['menu_about']		= 'O wklejkach';
+$lang['menu_admin']             = 'Admin';
 $lang['table_title']		= 'Tytuł';
 $lang['table_name']		= 'Autor';
 $lang['table_lang']		= 'Język';

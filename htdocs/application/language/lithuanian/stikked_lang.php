@@ -64,6 +64,7 @@ $lang['menu_trending'] = 'Dominuojantys';
 $lang['menu_trending_title'] = 'Dominuojantys įrašai';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Apie';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Pavadinimas';
 $lang['table_name'] = 'Vardas';
 $lang['table_lang'] = 'Kalba';

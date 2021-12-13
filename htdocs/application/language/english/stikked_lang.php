@@ -64,6 +64,7 @@ $lang['menu_trending'] = 'Trending';
 $lang['menu_trending_title'] = 'Trending Pastes';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'About';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Title';
 $lang['table_name'] = 'Name';
 $lang['table_lang'] = 'Language';

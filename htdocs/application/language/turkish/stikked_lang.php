@@ -62,6 +62,7 @@ $lang['menu_trending'] = 'Popüler';
 $lang['menu_trending_title'] = 'Popüler Pasteler';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'Hakkında';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Başlık';
 $lang['table_name'] = 'İsim';
 $lang['table_lang'] = 'Dil';

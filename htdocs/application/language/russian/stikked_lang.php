@@ -62,6 +62,7 @@ $lang['menu_trending'] = 'Популярные';
 $lang['menu_trending_title'] = 'Популярные заметки';
 $lang['menu_api'] = 'API';
 $lang['menu_about'] = 'О Stikked';
+$lang['menu_admin'] = 'Admin';
 $lang['table_title'] = 'Заголовок';
 $lang['table_name'] = 'Автор';
 $lang['table_lang'] = 'Язык';
