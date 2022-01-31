@@ -1,4 +1,4 @@
-<form action="">
+<form action="<?php echo site_url('lists'); ?>">
     <div class="item_group searchgroup">
         <div class="item">
             <label for="search"><?php echo lang('paste_search'); ?>
