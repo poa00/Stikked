@@ -26,7 +26,8 @@
 				<label for="title"><?php echo lang('paste_title'); ?>
 					<span class="instruction"><?php echo lang('paste_title_desc'); ?></span>
 				</label>
-				<input value="<?php if(isset($title_set)){ echo $title_set; }?>" type="text" id="title" name="title" tabindex="2" maxlength="50" />
+				<?php $set = array('name' => 'title', 'id' => 'title', 'value' => (isset($title_set) ? $title_set : ''), 'maxlength' => '50', 'tabindex' => '2');
+				echo form_input($set);?>
 			</div>
 
 			<div class="item last">

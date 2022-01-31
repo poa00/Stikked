@@ -29,7 +29,8 @@
 						<?php echo lang('paste_title'); ?>
 					</label>
 					
-					<input value="<?php if(isset($title_set)){ echo $title_set; }?>" class="span3" type="text" id="title" name="title" tabindex="2" maxlength="50" />
+					<?php $set = array('name' => 'title', 'id' => 'title', 'class' => 'span3', 'value' => (isset($title_set) ? $title_set : ''), 'maxlength' => '50', 'tabindex' => '2');
+					echo form_input($set);?>
 				</div>
 		
 				<div class="span3">
