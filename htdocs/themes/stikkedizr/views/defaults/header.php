@@ -44,7 +44,7 @@ $this->carabiner->display('css');
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="container">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#stikked-nav">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#stiqued-nav">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -52,7 +52,7 @@ $this->carabiner->display('css');
 						</button>
 						<a class="navbar-brand" href="<?php echo base_url(); ?>"><i class="fa fa-home"></i> <?php echo $this->config->item('site_name'); ?></a>
 					</div>
-					<div class="collapse navbar-collapse" id="stikked-nav">
+					<div class="collapse navbar-collapse" id="stiqued-nav">
 						<ul class="nav navbar-nav">
 							<?php $l = $this->uri->segment(1)?>
 <?php if($this->config->item('enable_adminlink')){ ?>

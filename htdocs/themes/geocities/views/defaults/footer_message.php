@@ -1,5 +1,5 @@
 <footer class="footer">
-	<?php echo lang('powered_by'); ?> <a href="<?php echo proj_url(); ?>">Stikked</a>
+	<?php echo lang('powered_by'); ?> <a href="<?php echo proj_url(); ?>">Stiqued</a>
     <br />
     <br />
     <table cellpadding="2" cellspacing="2">

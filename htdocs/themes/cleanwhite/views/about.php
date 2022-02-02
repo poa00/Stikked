@@ -2,8 +2,8 @@
 
 <div class="about">
 	<h1>About</h1>
-	<p>Stikked is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface.</p>
-    <p>Stikked allows you to easily share code with anyone you wish. Here are some features:</p>
+	<p>Stiqued is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface.</p>
+    <p>Stiqued allows you to easily share code with anyone you wish. Here are some features:</p>
 
     <ul>
         <li>Easy setup</li>

@@ -1,6 +1,6 @@
-Stikked is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface.
+Stiqued is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface.
 
-Stikked allows you to easily share code with anyone you wish. Based on the [original Stikked](http://code.google.com/p/stikked/) with lots of bugfixes and improvements.
+Stiqued allows you to easily share code with anyone you wish. Based on the [original Stikked](http://code.google.com/p/stikked/) and it's fork, [Stikked](https://github.com/claudehohl/Stikked).
 
 Here are some features:
 
@@ -41,10 +41,10 @@ Prerequisites
 Installation
 ------------
 
-1. Download Stikked from https://github.com/claudehohl/Stikked/releases
-2. Create a user and database for Stikked
-3. Copy application/config/stikked.php.dist to application/config/stikked.php
-4. Edit configuration settings in application/config/stikked.php - everything is described there
+1. Download Stiqued from https://github.com/krayon/stiqued/releases
+2. Create a user and database for Stiqued
+3. Copy application/config/stiqued.php.dist to application/config/stiqued.php
+4. Edit configuration settings in application/config/stiqued.php - everything is described there
 5. You're done!
 
 * The database structure will be created automatically if it doesn't exist.
@@ -60,9 +60,9 @@ How to run it in Docker
 
     docker-compose up
 
-This automatically builds the docker-image and fires up nginx, php and mariadb. Access your Stikked instance at http://localhost/.
+This automatically builds the docker-image and fires up nginx, php and mariadb. Access your Stiqued instance at http://localhost/.
 
-All files are served directly; the Stikked-configuration for Docker resides in docker/stikked.php
+All files are served directly; the Stiqued-configuration for Docker resides in docker/stiqued.php
 
 
 Documentation
@@ -73,8 +73,8 @@ In the folder doc/, you will find:
 * Webserver example configurations for Apache, Nginx, Lighttpd, Cherokee
 * A troubleshooting guide
 * How to create your own theme
-* How to translate Stikked into your language
-* How to contribute and improve Stikked
+* How to translate Stiqued into your language
+* How to contribute and improve Stiqued
 
 
 Changelog
@@ -84,31 +84,30 @@ Changelog
 
 * Rewritten the Docker setup to be simple and clean:
   * switch to nginx-alpine, php-fpm-alpine and mariadb
-  * docker-compose: autobuild php-image for stikked
+  * docker-compose: autobuild php-image for stiqued
   * serve all files directly (htdocs is mounted instead of copied)
-  * stikked-configuration for docker resides in docker/stikked.php
+  * stiqued-configuration for docker resides in docker/stiqued.php
 * force private-flag when a previously encrypted paste gets pasted public
 * Fixed a critical bug that allowed pasting despite captcha
 * Various bugfixes and improvements
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version. Copy it back.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version. Copy it back.
 
 ### Version 0.13.0:
 
 * Updated CodeIgniter to 3.1.9
 * Various improvements in the Docker setup
-* An automated Docker-build: https://hub.docker.com/r/claudehohl/stikked/
 * Reverted the "intelligent language switcher" back to a fixed language setting because of too many side-effects
 * Fixed encodings and decryption functionality in various themes
 * Various bugfixes and improvements
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version. Copy it back.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version. Copy it back.
 
-The language setting in config/stikked.php is back, you can set a fixed language:
+The language setting in config/stiqued.php is back, you can set a fixed language:
 
 ```php
 $config['language'] = 'english';
@@ -129,15 +128,15 @@ $config['content_expiration'] = '+1 week';
 * Updates ensuring the compatibility with PHP7:
   * Updated CodeIgniter to 3.1.5
   * Updated GeSHi to 1.0.9.0
-* Ability to run Stikked in Docker
+* Ability to run Stiqued in Docker
 * Small security fixes regarding XSS and LDAP
 * Various bugfixes and improvements
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version. Copy it back.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version. Copy it back.
 
-If you want to keep QR codes being displayed, add the following line in config/stikked.php:
+If you want to keep QR codes being displayed, add the following line in config/stiqued.php:
 
 ```php
 $config['qr_enabled'] = true;
@@ -156,9 +155,9 @@ $config['qr_enabled'] = true;
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version. Copy it back.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version. Copy it back.
 
-Add and set the base_url in htdocs/application/config/stikked.php
+Add and set the base_url in htdocs/application/config/stiqued.php
 
 ### Version 0.10.0:
 
@@ -177,9 +176,9 @@ Add and set the base_url in htdocs/application/config/stikked.php
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version.
 
-Append the $config['expires'] part at the bottom of application/config/stikked.php.dist to your config.
+Append the $config['expires'] part at the bottom of application/config/stiqued.php.dist to your config.
 
 Copy it back.
 
@@ -197,26 +196,26 @@ Copy it back.
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version. Copy it back.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version. Copy it back.
 
 ### Version 0.8.6:
 
 * New translations: Portuguese, Norwegian, Turkish, French
 * New theme: Snowkat
 * YOURLS support (http://yourls.org/)
-* There is now a stikked.php.dist. You may copy that to config.php and have your own settings
+* There is now a stiqued.php.dist. You may copy that to config.php and have your own settings
 * The API has more possibilities, see API doc
 * Captcha must be entered only once, no more for further pastes
 * Bugfixes and improvements
 
 #### Upgrade instructions
 
-Copy your htdocs/application/stikked.php config file away. Upload the new version. Copy it back.
+Copy your htdocs/application/stiqued.php config file away. Upload the new version. Copy it back.
 
 ### Version 0.8.5:
 
-* Themes! Configure a different theme in config/stikked.php - or create your own
-* Multilanguage support. Configure a different language in config/stikked.php
+* Themes! Configure a different theme in config/stiqued.php - or create your own
+* Multilanguage support. Configure a different language in config/stiqued.php
 * Diff view for paste replies! View differences between the original paste and its reply
  * see it in action: http://paste.scratchbook.ch/view/de81a093/diff
 * Possibility to set default expiration time
@@ -229,7 +228,7 @@ Copy your htdocs/application/stikked.php config file away. Upload the new versio
 
 #### Upgrade instructions
 
-The following lines must be present config/stikked.php
+The following lines must be present config/stiqued.php
 
 ```php
 $config['theme'] = 'default';
@@ -245,7 +244,7 @@ $config['language'] = 'english';
 
 You can choose between english, german and swissgerman ;)
 
-Help translating Stikked into your language! See doc/TRANSLATING_STIKKED.md
+Help translating Stiqued into your language! See doc/TRANSLATING_STIQUED.md
 
 ##### reCaptcha
 
@@ -272,7 +271,7 @@ Get a key from https://www.google.com/recaptcha/admin/create
 
 * From now on, IPs get logged in the DB
 * Added spamadmin:
-  * Enter credentials in config/stikked.php
+  * Enter credentials in config/stiqued.php
   * Visit /spamadmin, login
   * Click on an IP to list all pastes belonging to it
   * You can remove all the pastes listed, and optionally block the IP range
@@ -296,7 +295,7 @@ Get a key from https://www.google.com/recaptcha/admin/create
 
 ### Version 0.8:
 
-* Added backup function (yoursite.com/backup; set credentials in stikked.php config)
+* Added backup function (yoursite.com/backup; set credentials in stiqued.php config)
 * Added pagination to the replies table
 * Added RSS-Feeds to recent pastes and paste replies
 * Embeddable pastes

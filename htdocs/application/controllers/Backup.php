@@ -31,6 +31,6 @@ class Backup extends CI_Controller
 
         // Load the download helper and send the file to your desktop
         $this->load->helper('download');
-        force_download('stikked.gz', $backup);
+        force_download('stiqued.gz', $backup);
     }
 }

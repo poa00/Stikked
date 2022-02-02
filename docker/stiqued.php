@@ -8,12 +8,12 @@
  * The name of your site
  *
  */
-$config['site_name'] = 'Stikked';
+$config['site_name'] = 'Stiqued';
 
 /**
  * Base URL
  *
- * Set the base URL of Stikked. WITH trailing slash!
+ * Set the base URL of Stiqued. WITH trailing slash!
  *
  */
 $config['base_url'] = 'http://localhost/';
@@ -26,20 +26,20 @@ $config['base_url'] = 'http://localhost/';
  *
  */
 $config['db_hostname'] = 'mysql';
-$config['db_database'] = 'stikked';
-$config['db_username'] = 'stikked';
-$config['db_password'] = 'stikked';
+$config['db_database'] = 'stiqued';
+$config['db_username'] = 'stiqued';
+$config['db_password'] = 'stiqued';
 
 // If you are using sqlite:
 // uncomment the configuration lines below.
-//$config['db_database'] = 'db/stikked'; // you need to create a directory "db" and give the webserver write access. sqlite needs a writable folder to work properly!
+//$config['db_database'] = 'db/stiqued'; // you need to create a directory "db" and give the webserver write access. sqlite needs a writable folder to work properly!
 //$config['db_driver'] = 'sqlite';
 
 /**
  * Table prefix
- * Generate table prefix for stikked db, commonly used if the webhoster only has one db.
+ * Generate table prefix for stiqued db, commonly used if the webhoster only has one db.
  * Use underscore as suffix to easily see the tables.
- * example: $config['db_prefix'] = 'stikked_';
+ * example: $config['db_prefix'] = 'stiqued_';
  * use $config['db_prefix'] = ''; if you don't want to use table prefix.
  */
 $config['db_prefix'] = '';
@@ -79,7 +79,7 @@ $config['js_editor'] = ''; // codemirror, ace, ''
  * Language
  *
  * Which language to use
- * Translate Stikked to your own language, see htdocs/application/language files
+ * Translate Stiqued to your own language, see htdocs/application/language files
  * Currently: english, german, swissgerman, spanish, norwegian, danish, portuguese, turkish, french, japanese, polish, russian, chinese-simplified, chinese-traditional, indonesia
  *
  */

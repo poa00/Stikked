@@ -9,10 +9,10 @@
 |
 | URL of the project.
 |
-|    https://github.com/claudehohl/Stikked
+|    https://github.com/krayon/stiqued
 |
  */
-$config['proj_url'] = 'https://github.com/claudehohl/Stikked';
+$config['proj_url'] = 'https://github.com/krayon/stiqued';
 
 /*
 |--------------------------------------------------------------------------
@@ -32,13 +32,13 @@ $config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
-| Stikked version
+| Stiqued version
 |--------------------------------------------------------------------------
 |
 | So that we can track your version.
 |
  */
-$config['stikked_version'] = '0.14.0q';
+$config['stiqued_version'] = '0.15.0';
 
 /*
 |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ $config['url_suffix'] = '';
 | than english.
 |
  */
-#$config['language']    = 'english';    #this is configured in config/stikked.php
+#$config['language']    = 'english';    #this is configured in config/stiqued.php
 
 /*
 |--------------------------------------------------------------------------
@@ -296,7 +296,7 @@ $config['encryption_key'] = '';
 |
  */
 $config['sess_driver'] = 'database';
-$config['sess_cookie_name'] = 'stikked';
+$config['sess_cookie_name'] = 'stiqued';
 $config['sess_expiration'] = 60 * 60 * 24 * 1;
 $config['sess_save_path'] = 'sessions';
 $config['sess_match_ip'] = false;

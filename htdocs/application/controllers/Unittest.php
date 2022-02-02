@@ -11,7 +11,7 @@ class Unittest extends CI_Controller
 
         //protection
 
-        if ($_SERVER['HTTP_HOST'] != 'stikked') {
+        if ($_SERVER['HTTP_HOST'] != 'stiqued') {
             exit;
         }
     }
@@ -31,7 +31,7 @@ class Unittest extends CI_Controller
         $_POST['code'] = '<?php echo "hello world!";';
         $_POST['lang'] = 'php';
         $_POST['title'] = 'hello world';
-        $_POST['name'] = 'stikkeduser';
+        $_POST['name'] = 'stiqueduser';
         $pid = $this->pastes->createPaste();
 
         //paste created, has pid

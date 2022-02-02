@@ -23,7 +23,7 @@ $this->carabiner->js('jquery.timers.js');
 $this->carabiner->js('codemirror/lib/codemirror.js');
 
 
-$this->carabiner->js('stikked.js');
+$this->carabiner->js('stiqued.js');
 
 $this->carabiner->display('js');
 

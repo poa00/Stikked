@@ -10,12 +10,12 @@ services:
       - 127.0.0.1:80:80/tcp
 
   php:
-    image: stikked-php:1
+    image: stiqued-php:1
     volumes:
       - ./docker/php.ini:/usr/local/etc/php/php.ini:ro
       - ./docker/php-fpm.conf:/usr/local/etc/php-fpm.d/www.conf:ro
       - ./htdocs:/htdocs
-      - ./docker/stikked.php:/htdocs/application/config/stikked.php:ro
+      - ./docker/stiqued.php:/htdocs/application/config/stiqued.php:ro
     build:
       context: ./docker/php
 
@@ -26,6 +26,6 @@ services:
       - ./mysql-datadir_customize-in-docker-compose.yml:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: stikked
-      MYSQL_USER: stikked
-      MYSQL_PASSWORD: stikked
+      MYSQL_DATABASE: stiqued
+      MYSQL_USER: stiqued
+      MYSQL_PASSWORD: stiqued

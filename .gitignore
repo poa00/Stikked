@@ -1,6 +1,6 @@
 .DS_Store
 htdocs/static/asset/*
-htdocs/stikked.db
-htdocs/application/config/stikked.php
+htdocs/stiqued.db
+htdocs/application/config/stiqued.php
 htdocs/application/logs/*
 nbproject

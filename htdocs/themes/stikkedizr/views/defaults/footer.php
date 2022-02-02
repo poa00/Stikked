@@ -29,7 +29,7 @@ if(config_item('js_editor') == 'codemirror') {
 if(config_item('js_editor') == 'ace') {
     $this->carabiner->js('ace/ace.js');
 }
-$this->carabiner->js('stikked.js');
+$this->carabiner->js('stiqued.js');
 
 $this->carabiner->display('js');
 

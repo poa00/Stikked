@@ -80,7 +80,7 @@ $autoload['helper'] = array('url', 'date', 'language');
 |
  */
 
-$autoload['config'] = array('stikked');
+$autoload['config'] = array('stiqued');
 
 /*
 | -------------------------------------------------------------------
@@ -95,7 +95,7 @@ $autoload['config'] = array('stikked');
 |
  */
 
-$autoload['language'] = array('stikked');
+$autoload['language'] = array('stiqued');
 
 /*
 | -------------------------------------------------------------------

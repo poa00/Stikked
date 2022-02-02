@@ -73,7 +73,7 @@ class MY_Loader extends CI_Loader
             $_ci_file = ($_ci_ext === '') ? $_ci_view . '.php' : $_ci_view;
             foreach ($this->_ci_view_paths as $_ci_view_file => $cascade) {
 
-                /* *** modification for stikked themes ***
+                /* *** modification for Stiqued themes ***
                  *
                  * we are by default in the htdocs/application/views folder, which is bad.
                  * for security reasons, themes folder should be outside the application dir.
