@@ -8,7 +8,7 @@
  * The name of your site
  *
  */
-$config['site_name'] = 'Stikked';
+$config['site_name'] = getenv('site_name');
 
 /**
  * Base URL
@@ -16,7 +16,7 @@ $config['site_name'] = 'Stikked';
  * Set the base URL of Stikked. WITH trailing slash!
  *
  */
-$config['base_url'] = 'https://yourpastebin.com/';
+$config['base_url'] = getenv('base_url');
 
 /**
  * Database connection
@@ -25,10 +25,10 @@ $config['base_url'] = 'https://yourpastebin.com/';
  * The database structure will be created automatically
  *
  */
-$config['db_hostname'] = '127.0.0.1';
-$config['db_database'] = 'stikked';
-$config['db_username'] = 'stikked';
-$config['db_password'] = 'stikked';
+$config['db_hostname'] = getenv('db_hostname');
+$config['db_database'] = getenv('db_database');
+$config['db_username'] = getenv('db_username');
+$config['db_password'] = getenv('db_password');
 
 // If you are using sqlite:
 // uncomment the configuration lines below.
@@ -52,7 +52,7 @@ $config['db_prefix'] = '';
  * Currently: default, bootstrap, gabdark, gabdark3, geocities, snowkat, stikkedizr, cleanwhite, i386
  *
  */
-$config['theme'] = 'default';
+$config['theme'] = 'bootstrap';
 
 /**
  * Display QR code
@@ -83,7 +83,7 @@ $config['js_editor'] = ''; // codemirror, ace, ''
  * Currently: english, german, swissgerman, spanish, norwegian, danish, portuguese, turkish, french, japanese, polish, russian, chinese-simplified, chinese-traditional, indonesia
  *
  */
-$config['language'] = 'english';
+$config['language'] = 'chinese-simplified';
 
 /**
  * Combine JS & CSS files (recommended)
@@ -232,7 +232,7 @@ $config['soft_api'] = false;
  *
  **/
 $config['private_only'] = false;
-$config['enable_captcha'] = true;
+$config['enable_captcha'] = false;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';
 $config['disable_api'] = false;
